@@ -1,0 +1,112 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "roboto", sans-serif;
+}
+header {
+  background-color: #222222;
+  display: flex;
+  justify-content: space-between;
+}
+div.contenedor-logo {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px 10px 20px;
+}
+div h1.logo {
+  color: white;
+}
+div span.logo-verde {
+  color: #39b24a;
+}
+div span.logo-rojo {
+  color: #fc200c;
+}
+header nav.navegador-horizontal {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+header nav.navegador-horizontal ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+main section {
+  background-color: #edecec;
+  display: flex;
+  padding: 30px 19px 30px 19px;
+  justify-content: center;
+}
+main section article h2.subtitulo-1 {
+  color: white;
+  font-size: 24px;
+  padding-top: 29px;
+  padding-left: 10px;
+}
+main section article span.texto-rojo {
+  color: #fc200c;
+}
+main section article.seccion-fondo {
+  background-image: url(../img/fondo-section.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  height: 350px;
+  margin-right: 5px;
+  width: 490px;
+}
+/**seccion de la lista*/
+main section article.seccion-lista {
+  background-color: white;
+  height: 350px;
+  width: 490px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+main section article h2.texto-rojo {
+  color: #fc200c;
+  flex-wrap: wrap;
+  font-size: 24px;
+  text-align: center;
+}
+main section article h3 {
+  margin-left: 12%;
+}
+main section article div {
+  display: flex;
+  justify-content: space-around;
+  width: 490px;
+}
+main section article div img.comida-lista {
+  height: 129px;
+  width: 92px;
+}
+main section article ol {
+  display: flex;
+  font-size: 16px;
+  font-weight: 600;
+  flex-direction: column;
+  gap: 10px;
+}
+footer {
+  background-color: #222222;
+  display: flex;
+  justify-content: space-between;
+}
+footer nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px;
+}

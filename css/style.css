@@ -39,9 +39,10 @@ a {
   color: white;
   text-decoration: none;
 }
-main section {
+main section.contenedor-cuerpo {
   background-color: #edecec;
   display: flex;
+  flex-wrap: wrap;
   padding: 30px 19px 30px 19px;
   justify-content: center;
 }
